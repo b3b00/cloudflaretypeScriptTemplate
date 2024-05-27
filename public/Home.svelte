@@ -2,10 +2,12 @@
 
     import { onMount } from "svelte";
     
+    
         onMount(() => {
         })
     </script>
     
     <div>
-        <h2>this is the home 🏡</h2>
+        <h2>this is Home 🏡</h2>
+        
     </div>

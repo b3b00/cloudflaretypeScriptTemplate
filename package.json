@@ -10,7 +10,7 @@
         "build:front": "rollup -c",
         "build:auto": "rollup -c -w",
         "build:back": "tsc",
-        "build": "npm run build:front && npm run build:back"        
+        "build": "npm run build:front && npm run build:back"
     },
     "author": "{{ authors }}",
     "license": "ISC",
@@ -18,7 +18,6 @@
         
         "@cloudflare/workers-types": "^4.20231121.0",
         "@svelte-plugins/tooltips": "^3.0.0",
-        "@types/jest": "^29.5.11",
         "prettier": "^1.17.0",
         "ts-node": "^10.9.2",
         "typescript": "^5.3.3"
